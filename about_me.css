@@ -1,0 +1,56 @@
+#space {
+    border: 3px solid rgb(17, 118, 158);
+    text-align: justify;
+    margin-top: 0;
+    width: 200px;
+    background-color: grey;
+    
+    height: 1px;
+    position: relative;
+    vertical-align: middle;
+    width: 50%;
+}
+.head-name {
+    color: crimson;
+    font-size: 30px;
+    text-align: center;
+    text-transform: uppercase;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+#bio {
+    height: 90vh;
+    background-color: #edf1fd;
+    background-image: url("me2.jpg");
+    background-repeat: no-repeat;
+    position: relative;
+    background-size: contain;
+    background-position: right bottom;
+}
+.about-me {
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    width: 500px;
+    position: absolute;
+    left: 20%;
+    top: 40%;
+    transform: translate(-20%, -50%);
+}
+.about-me p:nth-child(1),
+.about-me .details{
+    color: rgb(17, 118, 158);
+    font-size: 16px;
+}
+.about-me h1{
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-size: 40px;
+    margin: 0px;
+    letter-spacing: 3px;
+    color: #292929;
+}
+.about-me .quote{
+    color: rgb(17, 118, 158);
+    font-size: 16px;
+}
+.facts-list {
+    font-size: 16px;
+    list-style-type: none;
+}
