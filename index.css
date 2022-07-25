@@ -5,6 +5,7 @@ body {
     sans-serif;
     background-image: linear-gradient(135deg, #f5f7fa 0%, #c3cfe2 100%);
     margin-left: 100px;
+    margin-right: 100px;
 }
 nav a {
     display: inline-block;
@@ -81,6 +82,7 @@ nav a:hover:not(.active) {
 }
 .header-text {
     font-size: 24px;
+    
     /* padding-left: 75px; */
     margin-right: 300px;
 }
@@ -90,7 +92,7 @@ nav a:hover:not(.active) {
 .jeff-pic img{
     padding-left: 200px;
     width: 350px;
-    margin-top: -190px;
+    margin-top: -260px;
     margin-right: 50px;
 }
 .project-header{
